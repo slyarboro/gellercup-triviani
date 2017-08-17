@@ -1,0 +1,57 @@
+AnswerIntent the answer is {Answer}
+AnswerIntent it is {Answer}
+AnswerIntent is it {Answer}
+AnswerIntent it's {Answer}
+AnswerIntent {Answer} is my answer
+AnswerIntent {Answer}
+AnswerIntent {Answer} i think
+AnswerIntent i think it's {Answer}
+AnswerIntent my answer is {Answer}
+AnswerIntent i'm gonna go with {Answer}
+AnswerIntent i'm going with {Answer}
+AnswerIntent i'm going to guess {Answer}
+AnswerIntent i'm going to go with {Answer}
+AnswerIntent let's go with {Answer}
+AnswerIntent it would be {Answer}
+AnswerIntent it might be {Answer}
+AnswerIntent the answer would be {Answer}
+
+DontKnowIntent do not know
+DontKnowIntent i do not know
+DontKnowIntent don't know
+DontKnowIntent i don't know
+DontKnowIntent i don't know the answer
+DontKnowIntent i don't know this question
+DontKnowIntent i don't know that one
+DontKnowIntent i don't know that
+DontKnowIntent i am not sure
+DontKnowIntent not sure
+DontKnowIntent i'm not sure which one
+DontKnowIntent i'm not sure who
+DontKnowIntent skip
+DontKnowIntent who knows
+DontKnowIntent i have no idea
+DontKnowIntent no idea
+DontKnowIntent no clue
+DontKnowIntent not a clue
+DontKnowIntent it beats me
+DontKnowIntent beats me
+DontKnowIntent i give up
+
+AMAZON.StartOverIntent start game
+AMAZON.StartOverIntent start trivia
+AMAZON.StartOverIntent begin game
+AMAZON.StartOverIntent begin trivia
+AMAZON.StartOverIntent start
+AMAZON.StartOverIntent new game
+AMAZON.StartOverIntent start new game
+AMAZON.StartOverIntent start a new game
+AMAZON.StartOverIntent replay trivia
+AMAZON.StartOverIntent play again
+AMAZON.StartOverIntent try again
+AMAZON.StartOverIntent restart
+AMAZON.StartOverIntent restart trivia
+AMAZON.StartOverIntent restart game
+AMAZON.StartOverIntent retry
+AMAZON.StartOverIntent start over
+AMAZON.StartOverIntent go again

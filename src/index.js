@@ -8,25 +8,23 @@
 
 'use strict';
 
-/**
- * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
- * Make sure the first answer is the correct one. Set at least 4 answers, any extras will be shuffled in.
- */
 var questions = [
     {
-        "Which one of Monica's boyfriends had a drinking problem?": [
+        "Which one of Monica's boyfriends has a drinking problem?": [
             "Fun Bobby",
             "Paul the Wine Guy",
-            "Richard Burke, M.D.",
-            "Chip"
+            "Richard",
+            "Chip",
+            "Peter"
         ]
     },
     {
-        "Which two actresses portrayed Rachel's sisters, Jill and Amy Green, respectively?": [
+        "Which two actresses portray Rachel's sisters, Jill and Amy Green, respectively?": [
             "Reese Witherspoon and Christina Applegate",
             "Christina Applegate and Jane Sibbett",
             "Reese Witherspoon and Christine Taylor",
-            "Anita Barone and Jane Sibbett"
+            "Anita Barone and Jane Sibbett",
+            "Jane Sibbett and Susan Bunch"
         ]
     },
     {
@@ -34,19 +32,22 @@ var questions = [
             "Frank Buffay Jr. Jr.",
             "Francis Buffay III",
             "Frank Buffay III",
-            "Frank Buffay, Jr."
+            "Frank Buffay, Jr.",
+            "Frankfurter Buffay"
         ]
     },
     {
-        "Which skill or skills does Joey list on his resume?": [
+        "What skill does Joey have on his resume?": [
             "Drinking a gallon of milk in 10 seconds",
-            "Foosball; Woodwork",
-            "Acting; Fluent in German",
-            "Eating more sandwiches than the Subway Guy"
+            "Foosball",
+            "Really good acting",
+            "Fluency in German",
+            "Eating more sandwiches than the Subway Guy",
+            "Magic"
         ]
     },
     {
-        "Which girlfriend of Joey's did Chandler kiss?": [
+        "Which girlfriend of Joey's does Chandler kiss?": [
             "Kathy, the girl from Criminal Minds",
             "Caitlin, the girl from NCIS",
             "Kathryn, the girl from Punky Brewster",
@@ -54,7 +55,7 @@ var questions = [
         ]
     },
     {
-        "Who cheated on Chandler with fellow actor, Nick?": [
+        "Who cheats on Chandler with fellow actor, Nick?": [
            "Kathy, the girl from Criminal Minds",
            "Caitlin, the girl from NCIS",
            "Kathryn, the girl from Punky Brewster",
@@ -62,15 +63,16 @@ var questions = [
         ]
     },
     {
-        "What is the song that Ross and Rachel discover makes Emma laugh?": [
+        "What song does Ross discover makes Emma laugh?": [
             "Baby Got Back",
             "Too Legit to Quit",
-            "Big Poppa",
-            "Spice Up Your Life"
+            "Ice Ice Baby",
+            "Jump Around",
+            "U Can't Touch This"
         ]
     },
     {
-        "Who is the actress that portays Joey's paleontologist girfriend?": [
+        "Who is the actress portraying Joey's paleontologist girfriend?": [
             "Aisha Tyler",
             "Gabrielle Union",
             "Maggie Wheeler",
@@ -78,59 +80,68 @@ var questions = [
         ]
     },
     {
-        "What greeting does Ross often use when he is sullen?": [
+        "What sullen greeting does Ross frequently use?": [
             "Hi",
             "Hey guys",
-            "Woe is me",
-            "Hey"
+            "Hello",
+            "Hey",
+            "I'm here"
         ]
     },
     {
-        "Which of the following actors never made an appearance on Friends?": [
-            "All three actors have appeared on Friends",
+        "Which of the following actors never makes an appearance on Friends?": [
+            "Stephen Baldwin",
             "Robin Williams",
             "Ben Stiller",
-            "Adam Goldberg"
+            "Adam Goldberg",
+            "George Clooney"
         ]
     },
     {
-        "Which two characters are married?": [
+        "Which of the following costumed duo is married?": [
             "Catwoman and the Pink Bunny",
             "Santa Claus and Superman",
             "Spudnik and the Holiday Armadillo",
-            "Supergirl and the Solar System"
+            "Supergirl and the Solar System",
+            "Santa Claus and Catwoman",
+            "Solar System and Spudnik"
         ]
     },
     {
-        "The character dressed as the Solar System is protrayed by what guest star?": [
+        "The character dressed as the Solar System is portrayed by which guest star?": [
             "Sean Penn",
             "Danny DeVito",
             "Jon Favreau",
-            "Hugh Laurie"
+            "Hugh Laurie",
+            "Alec Baldwin"
         ]
     },
     {
-        "What does Joey lick before putting back into the drawer?": [
+        "What does Joey lick before putting it back into the drawer?": [
             "Spoon",
             "Fork",
             "Butter knife",
-            "Spatula"
+            "Spatula",
+            "Whisk"
         ]
     },
     {
-        "The character of which actor trains to be the Ultimate Fighting Champion?": [
+        "What actor trains to be the Ultimate Fighting Champion?": [
             "Jon Favreau",
             "Bruce Willis",
             "Matt LeBlanc",
-            "Charlie Sheen"
+            "Charlie Sheen",
+            "Paul Rudd"
         ]
     },
     {
-        "How does Rachel find out about Ross and the copy girl?": [
-            "Gunther tells her",
-            "Rachel sees Copy Girl leaving his apartment",
-            "Copy Girl admits that she thought Ross was single",
-            "Ross writes her a very long letter"
+        "In the seventh season, an episode ends with which characters eating cheesecake off of the ground?": [
+            "Rachel, Joey and Chandler",
+            "Rachel, Phoebe and Joey",
+            "Chandler and Phoebe",
+            "Phoebe and Joey",
+            "Chandler and Rachel",
+            "Phoebe, Monica and Mike"
         ]
     }
 ];
