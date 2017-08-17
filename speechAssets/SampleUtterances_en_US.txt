@@ -1,20 +1,169 @@
-AnswerIntent the answer is {Answer}
-AnswerIntent it is {Answer}
-AnswerIntent is it {Answer}
-AnswerIntent it's {Answer}
-AnswerIntent {Answer} is my answer
-AnswerIntent {Answer}
-AnswerIntent {Answer} i think
-AnswerIntent i think it's {Answer}
-AnswerIntent my answer is {Answer}
-AnswerIntent i'm gonna go with {Answer}
-AnswerIntent i'm going with {Answer}
-AnswerIntent i'm going to guess {Answer}
-AnswerIntent i'm going to go with {Answer}
-AnswerIntent let's go with {Answer}
-AnswerIntent it would be {Answer}
-AnswerIntent it might be {Answer}
-AnswerIntent the answer would be {Answer}
+AnswerIntent {Cameo}
+AnswerIntent she is {Cameo}
+AnswerIntent she’s played by {Cameo}
+AnswerIntent it’s {Cameo}
+AnswerIntent her name is {Cameo}
+AnswerIntent it is {Cameo}
+AnswerIntent she was {Cameo}
+AnswerIntent it was {Cameo}
+AnswerIntent was {Cameo}
+AnswerIntent is {Cameo}
+AnswerIntent by {Cameo}
+AnswerIntent played by {Cameo}
+AnswerIntent the actress is {Cameo}
+
+AnswerIntent he says {RossGreeting}
+AnswerIntent it’s {RossGreeting}
+AnswerIntent it is {RossGreeting}
+AnswerIntent always says {RossGreeting}
+AnswerIntent uses {RossGreeting}
+AnswerIntent says {RossGreeting}
+AnswerIntent he always says {RossGreeting}
+AnswerIntent the greeting is {RossGreeting}
+AnswerIntent {RossGreeting}
+AnswerIntent ross says {RossGreeting}
+
+AnswerIntent the answer is {Object}
+AnswerIntent answer is {Object}
+AnswerIntent {Object}
+AnswerIntent a {Object}
+AnswerIntent his {Object}
+AnswerIntent the {Object}
+AnswerIntent their {Object}
+
+AnswerIntent {Cameo} and {Cameo}
+AnswerIntent it is {Cameo} and {Cameo}
+AnswerIntent they are {Cameo} and {Cameo}
+AnswerIntent they were {Cameo} and {Cameo}
+AnswerIntent it was {Cameo} and {Cameo}
+AnswerIntent the answer is {Cameo} and {Cameo}
+AnswerIntent they were played by {Cameo} and {Cameo}
+AnswerIntent it’s {Cameo} and {Cameo}
+
+AnswerIntent his name is {Character}
+AnswerIntent his name is {Character} {Identifier}
+AnswerIntent his name was {Character}
+AnswerIntent he went by {Character}
+AnswerIntent he went by {Character} {Identifier}
+AnswerIntent they call him {Character}
+AnswerIntent they call him {Character} {Identifier}
+AnswerIntent he is known as {Character}
+AnswerIntent he’s known as {Character}
+AnswerIntent he is {Character}
+AnswerIntent he is {Character} {Identifier}
+AnswerIntent he goes by {Character}
+AnswerIntent he goes by {Character} {Identifier}
+AnswerIntent he was {Character}
+AnswerIntent it is {Character}
+AnswerIntent it’s {Character}
+AnswerIntent it’s {Character} {Identifier}
+AnswerIntent the answer is {Character}
+AnswerIntent the answer is {Character} {Identifier}
+AnswerIntent he’s (Character}
+AnswerIntent {Character}
+AnswerIntent {Character} {Identifier}
+AnswerIntent it was {Character}
+AnswerIntent it was {Character} {Identifier}
+AnswerIntent {Character} the {Identifier}
+AnswerIntent it’s {Character} the {Identifier}
+AnswerIntent {Identifier}
+AnswerIntent the {Identifier}
+AnswerIntent his name is {Character}
+AnswerIntent his name is {Character} {Identifier}
+AnswerIntent they named him {Character}
+AnswerIntent {Character} who is the {Identifier}
+AnswerIntent {Character} who is {Identifier}
+AnswerIntent {Character} the {Identifier}
+AnswerIntent {Character} {Identifier}
+
+AnswerIntent that he {Expertise}
+AnswerIntent that he can {Expertise}
+AnswerIntent that he can {Expertise} more than {Identifier}
+AnswerIntent he {Expertise}
+AnswerIntent he is {Expertise}
+AnswerIntent he’s {Expertise}
+AnswerIntent his {Expertise}
+AnswerIntent he says he can {Expertise}
+AnswerIntent that he is able to {Expertise}
+AnswerIntent {Expertise}
+AnswerIntent he said he can {Expertise}
+AnswerIntent playing {Expertise}
+AnswerIntent he put {Expertise}
+AnswerIntent he put {Expertise} than the {Identifier}
+AnswerIntent he can {Expertise}
+AnswerIntent can {Expertise} than the {Identifier}
+AnswerIntent can {Expertise} than {Identifier}
+AnswerIntent that he {Expertise} than the {Identifier}
+AnswerIntent able to {Expertise}
+AnswerIntent able to {Expertise} than the {Identifier}
+AnswerIntent he has {Expertise}
+AnswerIntent he has {Expertise} than the {Identifier}
+
+AnswerIntent the song is {Song}
+AnswerIntent the answer is {Song}
+AnswerIntent {Song}
+AnswerIntent it was {Song}
+AnswerIntent it is {Song}
+AnswerIntent it’s {Song}
+AnswerIntent the name of the song is {Song}
+AnswerIntent the name of the song was {Song}
+AnswerIntent he sings {Song}
+
+AnswerIntent the answer is {Cameo}
+AnswerIntent my answer is {Cameo}
+AnswerIntent let’s go with {Cameo}
+AnswerIntent i’m gonna go with {Cameo}
+AnswerIntent i’m going with {Cameo}
+AnswerIntent i think its {Cameo}
+AnswerIntent it is {Cameo}
+AnswerIntent the Cameo is {Cameo}
+AnswerIntent {Cameo} never appeared
+AnswerIntent {Cameo} was never on
+AnswerIntent {Cameo} never did
+AnswerIntent {Cameo} didn’t
+AnswerIntent {Cameo} doesn’t
+AnswerIntent {Cameo} never does
+AnswerIntent it was {Cameo}
+AnswerIntent {Cameo}
+AnswerIntent {Cameo} i think
+AnswerIntent it’s {Cameo}
+AnswerIntent that would be {Cameo}
+AnswerIntent it would be {Cameo}
+AnswerIntent {Cameo} does
+AnswerIntent he was {Cameo}
+AnswerIntent the actor’s name is {Cameo}
+AnswerIntent the character is {Cameo}
+AnswerIntent {Cameo} plays him
+AnswerIntent he’s played by {Cameo}
+AnswerIntent portrayed by {Cameo}
+AnswerIntent {Cameo} did
+
+AnswerIntent they are {Costume} and {Costume}
+AnswerIntent they are {Costume} and the {Costume}
+AnswerIntent they are the {Costume} and {Costume}
+AnswerIntent they were the {Costume} and {Costume}
+AnswerIntent they were {Costume} and the {Costume}
+AnswerIntent {Costume} and {Costume} are married
+AnswerIntent {Costume} and the {Costume} are married
+AnswerIntent the {Costume} and {Costume} are married
+AnswerIntent it is {Costume} and the {Costume}
+AnswerIntent it would be {Costume} and {Costume}
+AnswerIntent it would be the {Costume} and {Costume}
+AnswerIntent they’re {Costume} and {Costume}
+AnswerIntent it’s {Costume} and {Costume}
+AnswerIntent it’s {Costume} and the {Costume}
+AnswerIntent it’s the {Costume} and {Costume}
+AnswerIntent the duo is {Costume} and {Costume}
+AnswerIntent the married couple is {Costume} and {Costume}}
+AnswerIntent they were {Costume} and {Costume}
+AnswerIntent {Costume} is married to the {Costume}
+AnswerIntent the {Costume) is married to {Costume}
+AnswerIntent the answer is {Costume} and the {Costume}
+AnswerIntent {Costume} and the {Costume}
+AnswerIntent the {Costume} and {Costume}
+AnswerIntent {Costume} and {Costume}
+AnswerIntent they were dressed as {Costume} and the {Costume}
+AnswerIntent they were dressed as the {Costume} and {Costume}
 
 DontKnowIntent do not know
 DontKnowIntent i do not know

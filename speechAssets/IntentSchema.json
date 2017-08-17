@@ -4,10 +4,38 @@
       "intent": "AnswerIntent",
       "slots": [
         {
-          "name": "Answer",
-          "type": "MULTIPLE_CHOICE_ANSWERS"
+           "name": "Character",
+           "type": "LIST_OF_CHARACTERS"
+        },
+        {
+           "name": "Cameo",
+           "type": "LIST_OF_CAMEOS"
+        },
+        {
+           "name": "Identifier",
+           "type": "LIST_OF_IDENTIFIERS"
+        },
+        {
+           "name": "Costume",
+           "type": "LIST_OF_COSTUMES"
+        },
+        {
+           "name": "Expertise",
+           "type": "LIST_OF_EXPERTISE"
+        },
+        {
+           "name": "RossGreeting",
+           "type": "LIST_OF_ROSS"
+        },
+        {
+           "name": "Song",
+           "type": "LIST_OF_EMMA"
+        },
+        {
+           "name": "Object",
+           "type": "LIST_OF_LICKABLES"
         }
-      ]
+     ]
     },
     {
       "intent": "DontKnowIntent"
