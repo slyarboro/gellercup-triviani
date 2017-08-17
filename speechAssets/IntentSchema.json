@@ -9,15 +9,6 @@
         }
       ]
     },
-        {
-      "intent": "AnswerOnlyIntent",
-      "slots": [
-        {
-          "name": "Answer",
-          "type": "MUTLIPLE_CHOICE_ANSWERS"
-        }
-      ]
-    },
     {
       "intent": "DontKnowIntent"
     },

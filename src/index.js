@@ -38,7 +38,7 @@ var questions = [
     },
     {
         "What skill does Joey have on his resume?": [
-            "Drinking a gallon of milk in 10 seconds",
+            "Drinking a gallon of milk in ten seconds",
             "Foosball",
             "Really good acting",
             "Fluency in German",
@@ -49,17 +49,19 @@ var questions = [
     {
         "Which girlfriend of Joey's does Chandler kiss?": [
             "Kathy, the girl from Criminal Minds",
-            "Caitlin, the girl from NCIS",
+            "Caitlin, the girl from Law and Order",
             "Kathryn, the girl from Punky Brewster",
-            "Katie, the girl from Days of Our Lives"
+            "Kate, the girl from Days of Our Lives",
+            "Katie, the girl from General Hospital"
         ]
     },
     {
         "Who cheats on Chandler with fellow actor, Nick?": [
            "Kathy, the girl from Criminal Minds",
-           "Caitlin, the girl from NCIS",
+           "Caitlin, the girl from Law and Order",
            "Kathryn, the girl from Punky Brewster",
-           "Katie, the girl from Days of Our Lives"
+           "Kate, the girl from Days of Our Lives",
+           "Katie, the girl from General Hospital"
         ]
     },
     {
