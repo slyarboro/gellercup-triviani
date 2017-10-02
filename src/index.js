@@ -1,5 +1,5 @@
 /******************************************************************************
-* Geller Cup Triviani
+* Friends Triviani
 * Friends Sitcom Trivia (Unofficial)
 * SLY <yarboro.stephanie@gmail.com>
 * github.com/slyarboro
@@ -30,10 +30,10 @@ var questions = [
     {
         "What is the name of Phoebe and Ursela's half-nephew?": [
             "Frank Buffay Jr. Jr.",
-            "Francis Buffay III",
-            "Frank Buffay III",
-            "Frank Buffay, Jr.",
-            "Frankfurter Buffay"
+            "Francis Buffay the First",
+            "Frank Buffay the Third",
+            "Franklin Buffay, Jr.",
+            "Franklinson Buffay"
         ]
     },
     {
@@ -43,7 +43,11 @@ var questions = [
             "Really good acting",
             "Fluency in German",
             "Eating more sandwiches than the Subway Guy",
-            "Magic"
+            "Magic",
+            "Ribbon dancing",
+            "Jazz scatting",
+            "Pointing aggressively",
+            "Prolonged eye contact"
         ]
     },
     {
@@ -74,7 +78,7 @@ var questions = [
         ]
     },
     {
-        "Who is the actress portraying Joey's paleontologist girfriend?": [
+        "Who is the actress portraying Joey's paleontologist girlfriend?": [
             "Aisha Tyler",
             "Gabrielle Union",
             "Maggie Wheeler",
@@ -119,12 +123,14 @@ var questions = [
         ]
     },
     {
-        "What does Joey lick before putting it back into the drawer?": [
+        "What is it that Joey licks before putting back in the drawer?": [
             "Spoon",
             "Fork",
             "Butter knife",
             "Spatula",
-            "Whisk"
+            "Whisk",
+            "Saucer",
+            "Pastrami"
         ]
     },
     {
@@ -145,7 +151,146 @@ var questions = [
             "Chandler and Rachel",
             "Phoebe, Monica and Mike"
         ]
-    }
+    },
+    {
+        "In what way is Rachel's cat described?": [
+            "Inside out",
+            "Like a naked molerat",
+            "Emaciated",
+            "Definitely evil",
+            "A cry for attention",
+            "Reincarnation of Pheobe's aunt",
+            "Better looking than Ross"
+        ]
+    },
+    {
+        "How does Ross find out that Carol is expecting a boy?": [
+            "Rachel lets it slip",
+            "Carol calls to tell him",
+            "Susan visits him at the museum",
+            "Joey tells him unintentionally",
+            "He asks Carol's O. B. G. Y. N.",
+            "He sees Monica's blue decorations from his apartment",
+            "Monica lets it slip",
+            "Phoebe lies and tells him it's a girl"
+        ]
+    },
+    {
+        "When Pheobe puts on a janitor's uniform, what does the name tag read?": [
+            "Ben",
+            "Joseph",
+            "Richard",
+            "Gavin",
+            "Frank",
+            "Joey",
+            "David",
+            "Mike"
+        ]
+    },
+    {
+        "What episode first shows Carol Willick's character being played by a different actress?": [
+            "Season One, Episode Nine",
+            "Season One, Episode Four",
+            "Season One, Episode Twenty",
+            "Season Two, Episode Two",
+            "Season Two, Episode Four",
+            "Season Three, Episode One"
+        ]
+    },
+    {
+        "In the friends' first Thanksgiving episode, why can't Joey celebrate the holiday with his family?": [
+            "They think he has a venereal disease",
+            "He is embarrassed about the lipstick commercial",
+            "Phoebe refuses to let him go",
+            "He doesn't know about his sister's wedding",
+            "They are breaking tradition and flying to Arizona",
+            "Chicken pox"
+        ]
+    },
+    {
+        "For Rachel's surprise party, what does Monica put Pheobe in charge of?": [
+            "Cups and ice",
+            "Plates and napkins",
+            "Music",
+            "Moist towelettes",
+            "Getting Rachel to the party",
+            "Inviting Ursela",
+            "Keeping Ross distracted",
+            "Cleaning her cleaning supplies",
+            "Serving drinks"
+        ]
+    },
+    {
+        "In Season Five, what kind of commercial do Ben and Joey audition for?": [
+            "Soup",
+            "Cereal",
+            "Lipstick",
+            "Dangers of secondhand smoking",
+            "Pizza bagels",
+            "Oatmeal",
+            "Anti-bullying"
+        ]
+    },
+    {
+        "Among the supporting cast, the most reoccuring character is portrayed by which guest star?": [
+            "James Michael Tyler as Gunther",
+            "Tom Selleck as Dr. Richard Burke",
+            "Paul Rudd as Mike Hannigan",
+            "Elliott Gould and Christina Pickles as Jack and Judy Geller",
+            "Maggie Wheeler as Janice Litman",
+            "Jane Sibbett as Carol Willick",
+            "Cole Sprouse as Ben Geller",
+            "Dylan Sprouse as Ben Geller"
+        ]
+    },
+    {
+        "Dr. Tim Burke is played by Michael Vartan; an actor famously known for his portrayal of what leading character in a television series?": [
+            "Agent Michael Vaughn of Alias",
+            "Dr. Spencer Reid of Criminal Minds",
+            "Agent Mike Warren of Graceland",
+            "Agent Dale Jakes of Graceland",
+            "Agent Timothy McGee of N.C.I.S.",
+            "Detective Nick Stokes of C.S.I",
+            "Dr. John Carter of E.R."
+        ]
+    },
+    {
+        "Brad Pitt guest stars in Season Eight's Thanksgiving episode. Still married to Jennifer Aniston at the time, how long after this episode's air date do the couple divorce?": [
+            "Four years",
+            "About two and a half years",
+            "Eighteen months",
+            "Less than one year",
+            "Six and a half years",
+            "Two years",
+            "Six months"
+        ]
+    },
+    {
+        "According to the rumor Rachel started in high school, who did Ross make out with?": [
+            "The librarian",
+            "One of the lunch ladies",
+            "A substitute teacher",
+            "The museum tour guide",
+            "Monica's Algebra tutor",
+            "Chandler's mom",
+            "His imaginary girlfriend"
+        ]
+    },
+    {
+        "What is Marcel's real name?": [
+            "Katie",
+            "Marcel",
+            "Banks",
+            "Freddie Prinze",
+            "Joshua",
+            "Beckman",
+            "Al Yankovic",
+            "Jonathan Taylor Thomas",
+            "Monkey, the Monkey",
+            "Moesha",
+            "Uncle Phil"
+        ]
+    },
 ];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
@@ -268,13 +413,13 @@ function onSessionEnded(sessionEndedRequest, session) {
 // ------- Skill specific business logic -------
 
 var ANSWER_COUNT = 4;
-var GAME_LENGTH = 5;
-var CARD_TITLE = "Geller Cup Triviani"; // Be sure to change this for your skill.
+var GAME_LENGTH = 10;
+var CARD_TITLE = "Friends Triviani";
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
-        speechOutput = "Hello Friend. \n I will ask you " + GAME_LENGTH.toString()
-            + " questions, try to get as many right as you can. Just say the number of the answer. Let's begin. \n ",
+        speechOutput = "Well, hello! \n Welcome to Friends Triviani. \n I will ask you " + GAME_LENGTH.toString()
+            + " questions;    to play, simply tell me the number of your answer choice. Now, could you BE more ready to begin? \n ",
         shouldEndSession = false,
 
         gameQuestions = populateGameQuestions(),
